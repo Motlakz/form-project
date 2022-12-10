@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    margin: 0 auto;
+}
+aside {
+    background-image: url("/assets/pexels-rakicevic-nenad-1274260.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    width: 50%;
+    height: 100vh;
+}
+.header {
+    background: rgba(164, 170, 219, 0.17);
+    position: relative;
+    top: 150px;
+    rotate: 10deg;
+    height: 50px;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+section.form {
+    padding: 20px;
+}
+input {
+    padding: 10px;
+}
